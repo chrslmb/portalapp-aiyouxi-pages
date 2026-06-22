@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>华体会 · 简明指南与使用提示</title>
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+
+    body {
+      background: #f8f6f2;
+      font-family: system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', 'Noto Sans', sans-serif;
+      color: #2b2b2b;
+      line-height: 1.6;
+      padding: 2rem 1rem;
+    }
+
+    .page {
+      max-width: 800px;
+      margin: 0 auto;
+      background: #fffffffb;
+      border-radius: 24px;
+      box-shadow: 0 8px 30px rgba(0, 0, 0, 0.04), 0 2px 8px rgba(0, 0, 0, 0.02);
+      padding: 2.5rem 2rem;
+    }
+
+    h1 {
+      font-size: 2rem;
+      font-weight: 600;
+      letter-spacing: -0.02em;
+      margin-bottom: 0.5rem;
+      color: #1f1f1f;
+      border-left: 4px solid #d4b88a;
+      padding-left: 1rem;
+    }
+
+    .subhead {
+      font-size: 1rem;
+      color: #5f5f5f;
+      margin-bottom: 2.2rem;
+      padding-left: 1.4rem;
+    }
+
+    .hero-note {
+      background: #f2efe8;
+      border-radius: 16px;
+      padding: 1.5rem 1.8rem;
+      margin-bottom: 2.2rem;
+      position: relative;
+    }
+
+    .hero-note p {
+      font-size: 1rem;
+      margin-bottom: 0.4rem;
+    }
+
+    .hero-note strong {
+      color: #1f1f1f;
+    }
+
+    .section-title {
+      font-weight: 600;
+      font-size: 1.2rem;
+      margin: 2rem 0 1rem 0;
+      color: #1f1f1f;
+      display: flex;
+      align-items: center;
+      gap: 0.5rem;
+    }
+
+    .section-title::before {
+      content: "▹";
+      color: #b29a7a;
+      font-size: 1.3rem;
+    }
+
+    .card-grid {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 1rem;
+      margin: 1rem 0 1.8rem;
+    }
+
+    .card {
+      background: #faf9f6;
+      flex: 1 1 200px;
+      border-radius: 14px;
+      padding: 1.2rem 1.4rem;
+      border: 1px solid #e8e2d6;
+    }
+
+    .card h3 {
+      font-size: 1.05rem;
+      font-weight: 600;
+      margin-bottom: 0.4rem;
+      color: #2b2b2b;
+    }
+
+    .card p {
+      font-size: 0.9rem;
+      color: #4a4a4a;
+    }
+
+    .quote-block {
+      background: #f5f1ea;
+      border-left: 4px solid #cbb295;
+      padding: 1.2rem 1.6rem;
+      margin: 1.8rem 0;
+      border-radius: 0 12px 12px 0;
+      font-size: 0.95rem;
+      color: #3d3d3d;
+    }
+
+    .quote-block strong {
+      color: #1f1f1f;
+    }
+
+    .tip-box {
+      background: #ece8df;
+      border-radius: 16px;
+      padding: 1.2rem 1.6rem;
+      margin: 1.6rem 0 2rem;
+      font-size: 0.95rem;
+      border: 1px dashed #c5b7a0;
+    }
+
+    .tip-box strong {
+      color: #1f1f1f;
+    }
+
+    .faq-item {
+      margin: 0.6rem 0 1.2rem;
+      padding-bottom: 0.8rem;
+      border-bottom: 1px solid #e7e0d4;
+    }
+
+    .faq-q {
+      font-weight: 600;
+      color: #1f1f1f;
+    }
+
+    .faq-a {
+      margin-top: 0.3rem;
+      color: #4a4a4a;
+      font-size: 0.95rem;
+    }
+
+    .faq-a a {
+      color: #7d6b52;
+      text-decoration: underline;
+      text-underline-offset: 2px;
+    }
+
+    .faq-a a:hover {
+      color: #a58666;
+    }
+
+    .inline-link {
+      color: #7d6b52;
+      text-decoration: underline;
+      text-underline-offset: 2px;
+      font-weight: 500;
+    }
+
+    .inline-link:hover {
+      color: #a58666;
+    }
+
+    hr {
+      border: none;
+      border-top: 1px solid #e2dbcf;
+      margin: 2rem 0 1rem;
+    }
+
+    .footer-note {
+      font-size: 0.8rem;
+      color: #7a7a7a;
+      text-align: center;
+      margin-top: 2rem;
+    }
+
+    @media (max-width: 600px) {
+      .page { padding: 1.8rem 1.2rem; }
+      h1 { font-size: 1.6rem; }
+      .card-grid { flex-direction: column; }
+      .hero-note { padding: 1.2rem; }
+    }
+  </style>
+</head>
+<body>
+  <div class="page">
+    <h1>华体会</h1>
+    <div class="subhead">一份简明使用指南 · 从定位到注意事项</div>
+
+    <div class="hero-note">
+      <p><strong>华体会</strong> 是一个围绕体育内容与社区互动构建的线上平台，主要面向喜欢赛事讨论、数据浏览和轻量社交的用户。本文档帮助你快速了解其核心功能、适用场景以及使用时值得留意的细节。</p>
+    </div>
+
+    <div class="section-title">平台摘要</div>
+    <p>华体会整合了实时赛程、队伍信息、热门话题与用户讨论区。不同于传统资讯站，它更强调用户之间的即时交流与观点分享。平台界面以信息卡片和流式时间线为主，适合快速浏览与轻互动。整体内容由官方编辑与用户共同贡献，氛围活跃但不喧闹。</p>
+
+    <div class="section-title">主要亮点</div>
+    <div class="card-grid">
+      <div class="card">
+        <h3>话题聚合</h3>
+        <p>每场比赛自动生成讨论串，用户可围绕具体事件发言，避免信息碎片化。</p>
+      </div>
+      <div class="card">
+        <h3>轻量交互</h3>
+        <p>点赞、引用、关注标签，不追求复杂社交关系，侧重内容本身。</p>
+      </div>
+      <div class="card">
+        <h3>数据辅助</h3>
+        <p>基础赛程与队伍数据内嵌，便于讨论时直接引用，减少外部跳转。</p>
+      </div>
+    </div>
+
+    <div class="quote-block">
+      <strong>使用建议：</strong> 如果你是初次接触，建议先浏览热门标签或当天的焦点赛事，从阅读评论开始熟悉社区风格。参与讨论时保持礼貌与事实依据，平台氛围对引战内容容忍度较低。
+    </div>
+
+    <div class="section-title">典型场景</div>
+    <ul style="padding-left: 1.8rem; margin-bottom: 1.2rem; color: #3d3d3d;">
+      <li style="margin-bottom: 0.4rem;"><strong>赛前预热：</strong>查看双方近况与用户预测，提前加入讨论。</li>
+      <li style="margin-bottom: 0.4rem;"><strong>实时聊球：</strong>边看比赛边刷讨论串，获取即时观点与表情包。</li>
+      <li style="margin-bottom: 0.4rem;"><strong>赛后复盘：</strong>浏览精彩片段与深度分析，参与投票或战术讨论。</li>
+    </ul>
+
+    <div class="tip-box">
+      <strong>访问提醒 · 克制说明</strong><br>
+      <span style="display: inline-block; margin-top: 0.2rem;">
+        华体会是一个公开的线上社区，内容由用户与编辑共同生成。请合理判断信息准确性，避免过度依赖单一来源。平台不会对任何投资、赌博或非法行为提供支持或暗示。如果你对某些内容存疑，建议多方查证。保持理性，享受讨论本身。
+      </span>
+    </div>
+
+    <div class="section-title">常见疑问摘要</div>
+    <div class="faq-item">
+      <div class="faq-q">是否需要注册才能浏览？</div>
+      <div class="faq-a">大部分内容对访客可见，但参与评论或订阅标签需要注册账号。注册流程简单，只需邮箱与昵称。</div>
+    </div>
+    <div class="faq-item">
+      <div class="faq-q">如何找到特定队伍的讨论？</div>
+      <div class="faq-a">使用搜索框或点击赛程卡片上的队伍名称，会自动跳转到对应的讨论聚合页。你也可以直接关注队伍标签。</div>
+    </div>
+    <div class="faq-item">
+      <div class="faq-q">内容更新频率如何？</div>
+      <div class="faq-a">比赛日期间讨论串实时更新，非比赛日以社区闲聊和长文为主。整体节奏由用户活跃度决定。</div>
+    </div>
+    <div class="faq-item">
+      <div class="faq-q">移动端体验怎么样？</div>
+      <div class="faq-a">响应式设计，手机浏览器即可获得接近原生应用的操作感。建议使用现代浏览器以获得最佳效果。</div>
+    </div>
+
+    <hr>
+    <p style="font-size: 0.95rem; line-height: 1.7;">
+      如果你希望进一步了解或直接体验，可以前往 <a href="https://new-huatihui.com" class="inline-link">华体会</a>。页面保持简洁，没有过多装饰，信息密度适中。建议使用桌面浏览器打开以获得更完整的布局，但移动端同样可用。初次加载时如果遇到内容空白，可尝试刷新或切换网络环境。
+    </p>
+    <p style="margin-top: 1.2rem; font-size: 0.9rem; color: #5a5a5a;">
+      最后提醒：任何线上社区都无法保证每条信息的绝对客观，请结合自身判断力使用。保持开放心态，同时保持独立思考。
+    </p>
+
+    <div class="footer-note">
+      本页为产品说明页 · 内容仅供参考 · 实际功能以平台为准
+    </div>
+  </div>
+</body>
+</html>
